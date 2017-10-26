@@ -5,7 +5,14 @@
     width: 100%;
     padding: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.dashboard--body__row-2 {
+    display: flex;
+}
+.dashboard--body__row-1 {
+    display: flex;
 }
 .page-header {
     display: flex;
@@ -14,7 +21,6 @@
     height: 50px;
     width: 100%;
     padding: 0 30px;
-    /*margin: 40px 40px 0 40px;*/
     box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
 }
 .page-header--name {
@@ -24,4 +30,12 @@
 }
 .page-header--svg {
     height: 24px;
+}
+.date-time {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
 }
