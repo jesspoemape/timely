@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logo = () => {
     return (
-        <div className="header--logo">time<sup>ly</sup></div>
+        <div className="header--logo">timely</div>
     );
 };
 

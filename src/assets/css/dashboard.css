@@ -1,0 +1,27 @@
+.dashboard--body__main {
+    display: flex;
+}
+.dashboard--body {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.page-header {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 50px;
+    width: 100%;
+    padding: 0 30px;
+    /*margin: 40px 40px 0 40px;*/
+    box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
+}
+.page-header--name {
+    text-transform: uppercase;
+    color: #374551;
+    font-size: 14px;
+}
+.page-header--svg {
+    height: 24px;
+}

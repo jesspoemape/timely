@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './../../assets/css/dashboard.css';
+import dash from './../../assets/svg/dashboard.svg';
+
 const PageHeader = () => {
     return (
-        <div>
-            page header
+        <div className="page-header">
+            <img className="page-header--svg" src={dash} alt="dashboard"/>
+            <div className="page-header--name">Dashboard</div>
         </div>
     );
 };

@@ -1,0 +1,22 @@
+.sidebar {
+    background: #283642;
+    width: 300px;
+    height: 100vh;
+}
+.nav-item {
+    display: flex;
+    padding: 30px 20px;
+    align-items: center;
+}
+.nav-item--name {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 14px
+}
+.nav-item--svg {
+    height: 24px;
+}
+.nav-item:hover {
+    background: #4996BF;
+}
