@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class SplashContainer extends Component {
+class ResourcesContainer extends Component {
     render() {
         return (
             <div>
-                Splash
+                resources
             </div>
         );
     }
 }
 
-export default SplashContainer;
+export default ResourcesContainer;

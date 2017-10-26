@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+
+.header {
+    background: #14242F;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.header--logo {
+    color: white;
+    font-size: 32px;
+    font-family: "Muli", sans-serif;
+}
+.header--link {
+    background: #E54D71;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header--link-svg {
+    height: 45px;
+}
+sup {
+    vertical-align: super;
+    font-size: 24px;
+}

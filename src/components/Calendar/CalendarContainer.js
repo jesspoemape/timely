@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class SplashContainer extends Component {
+class CalendarContainer extends Component {
     render() {
         return (
             <div>
-                Splash
+                Calendar
             </div>
         );
     }
 }
 
-export default SplashContainer;
+export default CalendarContainer;
