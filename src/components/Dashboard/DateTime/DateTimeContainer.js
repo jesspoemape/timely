@@ -6,15 +6,18 @@ import Time from './Time';
 import Date from './Date';
 import CalendarButton from './CalendarButton';
 
-const time = moment().format("h:mm A");
-const date = moment().format("dddd MMMM D, YYYY");
+const now = moment();
+const ampm = now.format("A");
+const time = now.format("h:mm");
+const day = now.format("dddd");
+const date = now.format("MMMM D, YYYY");
 
 const DateTimeContainer = () => {
     return (
         <div className="date-time">
-            <div className="date-time--header"></div>
-            <Time time={time}/>
-            <Date date={date}/>
+            <div className="date-time--header">DATE</div>
+            <Time time={time} ampm={ampm}/>
+            <Date date={date} day={day}/>
             <CalendarButton />
         </div>
     );

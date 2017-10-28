@@ -1,8 +1,12 @@
 import React from 'react';
 
+import './../../../assets/css/dashboard.css';
+
 const CalendarButton = () => {
     return (
-        <button>Calendar</button>
+        <div className="calendar-btn">
+            <button className="calendar-btn--btn">Calendar</button>
+        </div>
     );
 };
 

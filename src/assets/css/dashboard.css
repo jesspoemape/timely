@@ -10,9 +10,11 @@
 }
 .dashboard--body__row-2 {
     display: flex;
+    margin-bottom: 30px;
 }
 .dashboard--body__row-1 {
     display: flex;
+    margin-bottom: 30px;
 }
 .page-header {
     display: flex;
@@ -35,7 +37,108 @@
     display: flex;
     flex-direction: column;
     background: white;
-    height: 400px;
-    width: 300px;
     box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px 0 0 0;
+}
+.date-time--header {
+    color: #374551;
+    padding: 0 0 10px 25px;
+    font-size: 12px;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #F5F6F7;
+    border-bottom: 2px solid #F5F6F7;
+    color: #374551;
+    padding: 10px 0px;
+    margin: 10px 25px;
+    align-items: flex-end;
+}
+.time--time {
+    font-size: 105px;
+    font-weight: 200;
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    color: #374551;
+    padding: 10px 25px 25px 25px;
+}
+.date--day {
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+.date--date {
+    font-weight: 200;
+    font-size: 12px;
+}
+.calendar-btn {
+    background: #F9F9FA;
+    padding: 25px 25px;
+    margin-top: auto;
+}
+.calendar-btn--btn {
+    background-color: #E54D71;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 8px;
+}
+.announcements {
+    background: white;
+    box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    margin-right: 30px;
+}
+.announcements--header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.announcements--header-title {
+    text-transform: uppercase;
+    color: #374551;
+    font-size: 14px;
+}
+.announcements--header-svg {
+    height: 30px;
+}
+.add-announcement--svg {
+    height: 30px;
+}
+.links-container {
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+.links-container--header {
+    text-transform: uppercase;
+    color: #374551;
+    font-size: 14px;
+    padding: 15px;
+    border-bottom: 2px solid #F5F6F7;
+}
+.links {
+    display: flex;
+    padding: 60px 15px;
+}
+.link {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+.link--logo {
+    height: 60px;
+    padding-bottom: 10px;
+}
+.link--label {
+    font-size: 12px;
+    color: #374551;
+    font-weight: 200;
 }

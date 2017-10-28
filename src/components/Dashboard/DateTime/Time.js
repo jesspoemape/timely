@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Time = ({time}) => {
+import './../../../assets/css/dashboard.css';
+
+const Time = ({time, ampm}) => {
     return (
-        <div>
-            {time}
+        <div className="time">
+            <div className="time--time">{time}</div>
+            <div className="time--ampm">{ampm}</div>
         </div>
     );
 };

@@ -6,6 +6,7 @@ import PageHeader from './PageHeader';
 import Sidebar from './../Shared/Sidebar/SidebarContainer';
 import DateTimeContainer from './DateTime/DateTimeContainer';
 import AnnouncementsContainer from './Announcements/AnnouncementsContainer';
+import LinksContainer from './Links/LinksContainer';
 
 class DashboardContainer extends Component {
     render() {
@@ -22,6 +23,7 @@ class DashboardContainer extends Component {
                             <AnnouncementsContainer />
                             <DateTimeContainer />
                         </div>
+                        <LinksContainer />
                     </div>
                 </div>
             </div>
