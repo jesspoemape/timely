@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './../../assets/css/dashboard.css';
-import dash from './../../assets/svg/dashboard.svg';
+import dash from './../../assets/svg/dashboard-dark.svg';
 
 const PageHeader = () => {
     return (

@@ -1,3 +1,7 @@
+/*********************** 
+MAIN 
+************************/
+
 .dashboard--body__main {
     display: flex;
 }
@@ -16,35 +20,46 @@
     display: flex;
     margin-bottom: 30px;
 }
+
+/*********************** 
+PAGE HEADER 
+************************/
 .page-header {
     display: flex;
     align-items: center;
     background: white;
     height: 50px;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 15px;
     box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
 }
 .page-header--name {
     text-transform: uppercase;
     color: #374551;
-    font-size: 14px;
+    font-size: 12px;
+    padding: 0 10px;
 }
 .page-header--svg {
     height: 24px;
 }
+
+/***********************
+DATE TIME
+************************/
 .date-time {
     display: flex;
     flex-direction: column;
     background: white;
     box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
     padding: 25px 0 0 0;
+    width: 33.33333%;
 }
 .date-time--header {
     color: #374551;
     padding: 0 0 10px 25px;
     font-size: 12px;
 }
+/* TIME */
 .time {
     display: flex;
     flex-direction: column;
@@ -52,13 +67,18 @@
     border-bottom: 2px solid #F5F6F7;
     color: #374551;
     padding: 10px 0px;
-    margin: 10px 25px;
-    align-items: flex-end;
+    margin: 10px 25px 10px 12px;
+    align-items: flex-start;
 }
 .time--time {
     font-size: 105px;
     font-weight: 200;
 }
+.time--ampm {
+    padding-left: 12px;
+}
+
+/* DATE */
 .date {
     display: flex;
     flex-direction: column;
@@ -74,6 +94,10 @@
     font-weight: 200;
     font-size: 12px;
 }
+
+/*********************** 
+CALENDAR
+************************/
 .calendar-btn {
     background: #F9F9FA;
     padding: 25px 25px;
@@ -87,11 +111,16 @@
     color: white;
     text-transform: uppercase;
     padding: 7px 8px;
+    cursor: pointer;
 }
+
+/*********************** 
+ANNOUNCEMENTS
+************************/
 .announcements {
     background: white;
     box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
+    width: 66.6666%;
     margin-right: 30px;
 }
 .announcements--header {
@@ -102,14 +131,20 @@
 .announcements--header-title {
     text-transform: uppercase;
     color: #374551;
-    font-size: 14px;
+    font-size: 12px;
+    padding: 0 10px;
 }
 .announcements--header-svg {
     height: 30px;
 }
 .add-announcement--svg {
-    height: 30px;
+    height: 20px;
+    cursor: pointer;
 }
+
+/*********************** 
+QUICK LINKS
+************************/
 .links-container {
     background-color: white;
     box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
@@ -118,7 +153,7 @@
 .links-container--header {
     text-transform: uppercase;
     color: #374551;
-    font-size: 14px;
+    font-size: 12px;
     padding: 15px;
     border-bottom: 2px solid #F5F6F7;
 }
@@ -132,6 +167,7 @@
     flex-direction: column;
     align-items: center;
     padding-right: 20px;
+    cursor: pointer;
 }
 .link--logo {
     height: 60px;
