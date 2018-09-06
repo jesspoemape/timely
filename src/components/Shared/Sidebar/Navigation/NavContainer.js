@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import NavItem from './NavItem';
 import dash from './../../../../assets/svg/dashboard-light.svg';
 import calendar from './../../../../assets/svg/calendar.svg';
-import employees from './../../../../assets/svg/employees.svg';
+import employees from './../../../../assets/svg/employees-light.svg';
 import resources from './../../../../assets/svg/resources.svg';
 
 

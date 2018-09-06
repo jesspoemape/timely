@@ -16,10 +16,10 @@ class DashboardContainer extends Component {
                 <div className="dashboard--body__main">
                     <Sidebar />
                     <div className="dashboard--body">
-                        <div className="dashboard--body__row-1">
+                        <div className="dashboard--body__announcements-date-time">
                             <PageHeader />
                         </div>
-                        <div className="dashboard--body__row-2">
+                        <div className="dashboard--body__links">
                             <AnnouncementsContainer />
                             <DateTimeContainer />
                         </div>

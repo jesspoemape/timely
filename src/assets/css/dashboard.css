@@ -12,11 +12,11 @@ MAIN
     justify-content: flex-start;
     flex-direction: column;
 }
-.dashboard--body__row-2 {
+.dashboard--body__links {
     display: flex;
     margin-bottom: 30px;
 }
-.dashboard--body__row-1 {
+.dashboard--body__announcements-date-time {
     display: flex;
     margin-bottom: 30px;
 }

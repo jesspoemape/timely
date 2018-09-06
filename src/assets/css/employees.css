@@ -1,0 +1,73 @@
+.employees--body__main {
+    display: flex;
+    background: lightblue;
+}
+.employees--body {
+    background: pink;
+}
+
+/*********************** 
+PAGE HEADER 
+************************/
+.page-header {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 50px;
+    margin: 40px;
+    padding: 0 15px;
+    box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
+}
+.page-header__right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.page-header--name {
+    text-transform: uppercase;
+    color: #374551;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.page-header--svg {
+    height: 24px;
+}
+.add-employee--svg {
+    height: 20px;
+    cursor: pointer;
+}
+.search-employees {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.search-employees--svg {
+    height: 15px;
+    position: absolute;
+    left: 5px;
+}
+.search-employees--input {
+    padding: 8px 8px 8px 25px;
+    border: none;
+    background: #F0F1F3;
+    color: #ABADAF;
+    font-size: 10px;
+}
+.sort-by-team {
+    display: flex;
+    align-items: center;
+}
+.employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.employee-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+    background: white;
+    box-shadow: 0 1px 3px 0 rgba(30, 30, 30, 0.1), 0 2px 19px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+}

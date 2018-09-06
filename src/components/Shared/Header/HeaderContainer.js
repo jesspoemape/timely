@@ -1,14 +1,15 @@
 import React from 'react';
 
 import './../../../assets/css/header.css'
-import Logo from './Logo';
-import Link from './Link';
+import link from './../../../assets/svg/link.svg';
 
 const HeaderContainer = () => {
     return (
         <div className="header">
-            <Logo />
-            <Link />
+            <div className="header--logo">timely</div>
+            <div className="header--link">
+                <img className="header--link-svg" src={link} alt="link"/>
+            </div>
         </div>
     );
 };
