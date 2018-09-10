@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './../../../assets/css/dashboard.css';
 import fire from './../../../assets/svg/fire.svg';
 import AddAnnouncement from './AddAnnouncement';
-import Footer from './Footer';
+import Announcement from './Announcement';
 
 class AnnouncementsContainer extends Component {
     render() {
@@ -14,7 +14,7 @@ class AnnouncementsContainer extends Component {
                     <div className="announcements--header-title">Announcements</div>
                     <AddAnnouncement />
                 </div>
-                <Footer />
+                <Announcement />
             </div>
         );
     }
