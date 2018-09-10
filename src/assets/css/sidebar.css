@@ -11,6 +11,18 @@
     display: flex;
     padding: 30px 20px;
     align-items: center;
+    transition: background-color .2s ease-in-out;
+}
+.nav-item-active {
+    background-color: #4996BF;
+}
+.nav-item-active:after {
+    content: ' ';
+    position: absolute;
+    right: 0;
+    border-top: 15px solid transparent;
+	border-right: 15px solid #E7E8EC;
+	border-bottom: 15px solid transparent;
 }
 .nav-item--name {
     color: white;

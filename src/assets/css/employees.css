@@ -1,9 +1,8 @@
 .employees--body__main {
     display: flex;
-    background: lightblue;
 }
 .employees--body {
-    background: pink;
+    padding: 40px 40px 40px 260px;
 }
 
 /*********************** 
