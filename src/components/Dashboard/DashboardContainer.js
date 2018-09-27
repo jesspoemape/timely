@@ -13,7 +13,7 @@ class DashboardContainer extends Component {
         return (
             <div className="dashboard">
                 <Header />
-                <div className="dashboard--body__main">
+                <div>
                     <Sidebar />
                     <div className="dashboard--body">
                         <div className="dashboard--body__announcements-date-time">
